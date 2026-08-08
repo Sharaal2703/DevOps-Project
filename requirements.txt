@@ -28,4 +28,5 @@ tomli==2.4.1
 typing-inspection==0.4.2
 typing_extensions==4.16.0
 tzdata==2026.3
-uvicorn==0.52.1
+uvicorn==0.34.0
+mlflow==3.15.1

@@ -1,4 +1,13 @@
 .venv/
 __pycache__/
 *.pyc
-.mlflow/
+
+mlruns/
+mlflow.db
+
+model.pkl
+models/
+
+.dvc/cache/
+
+*.db

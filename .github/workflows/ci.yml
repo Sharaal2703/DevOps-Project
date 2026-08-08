@@ -2,9 +2,9 @@ name: MLOps CI
 
 on:
   push:
-    branches: [master,main]
+    branches: [master, main]
   pull_request:
-    branches: [master,main]
+    branches: [master, main]
 
 jobs:
   test-and-build:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest
+          pytest -v
 
       - name: Build Docker image
         run: |
